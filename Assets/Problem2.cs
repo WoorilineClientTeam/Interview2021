@@ -15,6 +15,9 @@ public class Problem2 : MonoBehaviour
     /// 
     /// 숫자 롤링 시간은 임의로 지정해서 구현
     /// 
+    /// 숫자 롤링은 숫자가 변하는 연출 그 자체를 뜻함
+    /// 예) startNum = 1, endNum = 5 일 경우에 숫자가 1->2->3->4->5로 변하는 과정이 다 보여야함
+    /// 
     /// </summary>
 
     public void Solution(long startNum, long endNum)
